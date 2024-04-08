@@ -1,4 +1,4 @@
-package nl.ns.randomjoke.dto;
+package nl.ns.randomjoke.client.model;
 
 public record Joke(
     String joke,

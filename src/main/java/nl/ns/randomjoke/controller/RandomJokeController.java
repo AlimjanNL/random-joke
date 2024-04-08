@@ -3,7 +3,7 @@ package nl.ns.randomjoke.controller;
 import jakarta.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import lombok.extern.slf4j.Slf4j;
-import nl.ns.randomjoke.RandomJokeNotFoundException;
+import nl.ns.randomjoke.exception.RandomJokeNotFoundException;
 import nl.ns.randomjoke.dto.JokeDTO;
 import nl.ns.randomjoke.dto.RandomJokeNotFoundResponse;
 import nl.ns.randomjoke.service.RandomJokeService;

@@ -10,7 +10,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Objects;
 import java.util.Optional;
-import nl.ns.randomjoke.RandomJokeNotFoundException;
+import nl.ns.randomjoke.exception.RandomJokeNotFoundException;
 import nl.ns.randomjoke.dto.JokeDTO;
 import nl.ns.randomjoke.service.RandomJokeService;
 import org.junit.jupiter.api.Test;

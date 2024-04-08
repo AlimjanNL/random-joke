@@ -1,4 +1,4 @@
-package nl.ns.randomjoke;
+package nl.ns.randomjoke.exception;
 
 public class RandomJokeNotFoundException extends RuntimeException {
 
